@@ -1,0 +1,11 @@
+[package]
+name = "alloy_deploydata"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+alloy = { version = "0.3.5", features = ["full", "node-bindings"] }
+anyhow = "1.0.88"
+criterion = "0.5.1"
+ethers = "2.0.14"
+tokio = { version = "1.40.0", features = ["full"] }
